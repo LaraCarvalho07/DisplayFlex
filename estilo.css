@@ -1,0 +1,261 @@
+body{
+    background-color: #5d2e46;
+    font-family: "Bodoni MT";
+    font-size: medium;
+}
+
+
+
+header{
+    align-items: center;
+    height: 40px;
+    padding-top: 1px;
+    color: #ffffff;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    background-color: #f1c8dd;
+    color: rgb(158, 101, 130);
+}
+.cabecalho{
+    padding-bottom: 10px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+
+
+#banner{
+    background-color: #9e6582;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+    color: white;
+
+}
+.cards{
+    display: flex;
+    background-color: #9e6582;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 250px;
+}
+.cards{
+    display: flex;
+    background-color: #9e6582;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 250px;
+}
+
+.card2 {
+    background-color: #f1c8dd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.cardrow{
+    display: flex;
+}
+
+.cardrow1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+}
+
+.cardrowrev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cardrowrev1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+}
+
+.card3{
+    background-color: #f1c8dd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin-top: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cardrcolun{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardrcolun1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+}
+
+.card4{
+    background-color: #f1c8dd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin-top: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.cardrcolunrev{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cardrcolunrev1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+}
+
+.juststart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.juststart1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+
+}
+
+h1{
+    color: white;
+}
+
+
+
+.juststend {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.justsend1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+
+}
+
+.justcent {
+    display: flex;
+    justify-content:center;
+}
+
+.justscent1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+
+}
+
+
+.stretch{
+    display: flex;
+    justify-content: stretch;
+}
+
+.stretch1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+}
+
+.flexstart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexstart1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+    margin-top: -9px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.center1{
+    background-color: #9e6582;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    height: 60px;
+    width:60px ;
+    
+
+}
+
